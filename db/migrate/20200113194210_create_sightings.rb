@@ -1,6 +1,6 @@
 class CreateSightings < ActiveRecord::Migration[5.1]
   def change
-    create_table :animals do |t|
+    create_table :sightings do |t|
       t.column(:animal_id, :integer)
       t.column(:lattitude, :decimal)
       t.column(:logitude, :decimal)
