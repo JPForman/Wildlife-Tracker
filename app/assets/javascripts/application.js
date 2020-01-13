@@ -13,3 +13,8 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+//= require jquery3
+
+$(document).ready(function() {
+  console.log('hi');
+});
